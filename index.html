@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="particles-container" id="particles-js"></div>
+
+    <!-- Navigation -->
+    <nav class="glass-nav">
+        <div class="logo">
+            <span class="glow-text">Portfolio</span>
+        </div>
+        <div class="menu-btn">
+            <div class="menu-btn__burger"></div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section">
+        <div class="glass-card hero-card">
+            <div class="content">
+                <h1 class="glow-text">Hello, I'm <span class="highlight">Blood</span></h1>
+                <h2>UI/UX Designer & Developer</h2>
+                <p>Creating beautiful digital experiences with code and creativity</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn primary-btn">View My Work</a>
+                    <a href="#contact" class="btn secondary-btn">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="orbit">
+                    <div class="planet"></div>
+                    <div class="satellite"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2 class="section-title glow-text">About Me</h2>
+        <div class="glass-card about-card">
+            <div class="about-image">
+                <div class="image-container">
+                    <div class="image-placeholder"></div>
+                    <div class="glow-circle"></div>
+                </div>
+            </div>
+            <div class="about-content">
+                <h3>Who am I?</h3>
+                <p>I'm a passionate web developer with a strong focus on creating immersive and interactive digital experiences. With over 5 years of experience in the industry, I've developed a keen eye for design and a deep understanding of modern web technologies.</p>
+                <p>My approach combines creative thinking with technical expertise to build websites that are not only visually stunning but also highly functional and user-friendly.</p>
+                <div class="stats-container">
+                    <div class="stat-item">
+                        <span class="counter" data-target="3">0</span>
+                        <span class="stat-text">Years Experience</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="counter" data-target="5">0</span>
+                        <span class="stat-text">Projects Completed</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="counter" data-target="15">0</span>
+                        <span class="stat-text">Happy Clients</span>
+                    </div>
+                </div>
+                <a href="#" class="btn primary-btn">Download CV</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2 class="section-title glow-text">My Projects</h2>
+        <div class="projects-grid">
+            <div class="glass-card project-card" data-category="web">
+                <div class="project-image"></div>
+                <div class="project-content">
+                    <h3>E-Commerce Website</h3>
+                    <p>A fully responsive e-commerce platform with modern UI/UX</p>
+                    <div class="project-tags">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                    </div>
+                    <a href="#" class="btn small-btn">View Project</a>
+                </div>
+            </div>
+            <div class="glass-card project-card" data-category="mobile">
+                <div class="project-image"></div>
+                <div class="project-content">
+                    <h3>Portfolio App</h3>
+                    <p>Mobile application showcasing creative work with smooth animations</p>
+                    <div class="project-tags">
+                        <span>Flutter</span>
+                        <span>Firebase</span>
+                        <span>Dart</span>
+                    </div>
+                    <a href="#" class="btn small-btn">View Project</a>
+                </div>
+            </div>
+            <div class="glass-card project-card" data-category="web">
+                <div class="project-image"></div>
+                <div class="project-content">
+                    <h3>Dashboard UI</h3>
+                    <p>Admin dashboard with data visualization and real-time updates</p>
+                    <div class="project-tags">
+                        <span>Vue.js</span>
+                        <span>D3.js</span>
+                        <span>Express</span>
+                    </div>
+                    <a href="#" class="btn small-btn">View Project</a>
+                </div>
+            </div>
+            <div class="glass-card project-card" data-category="design">
+                <div class="project-image"></div>
+                <div class="project-content">
+                    <h3>Brand Identity</h3>
+                    <p>Complete brand identity design for a tech startup</p>
+                    <div class="project-tags">
+                        <span>Figma</span>
+                        <span>Illustrator</span>
+                        <span>Branding</span>
+                    </div>
+                    <a href="#" class="btn small-btn">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2 class="section-title glow-text">My Skills</h2>
+        <div class="glass-card skills-card">
+            <div class="skills-categories">
+                <div class="category active" data-category="frontend">Frontend</div>
+                <div class="category" data-category="backend">Backend</div>
+                <div class="category" data-category="design">Design</div>
+                <div class="category" data-category="tools">Tools</div>
+            </div>
+            <div class="skills-content">
+                <div class="skills-group active" id="frontend">
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>HTML/CSS</span>
+                            <span class="percentage">95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>JavaScript</span>
+                            <span class="percentage">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>React</span>
+                            <span class="percentage">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Vue.js</span>
+                            <span class="percentage">80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-group" id="backend">
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Node.js</span>
+                            <span class="percentage">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Express</span>
+                            <span class="percentage">80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>MongoDB</span>
+                            <span class="percentage">75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Python</span>
+                            <span class="percentage">70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 70%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-group" id="design">
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Figma</span>
+                            <span class="percentage">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Adobe XD</span>
+                            <span class="percentage">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Illustrator</span>
+                            <span class="percentage">75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>UI/UX Design</span>
+                            <span class="percentage">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-group" id="tools">
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Git</span>
+                            <span class="percentage">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Docker</span>
+                            <span class="percentage">75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>AWS</span>
+                            <span class="percentage">70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 70%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>CI/CD</span>
+                            <span class="percentage">80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2 class="section-title glow-text">Contact Me</h2>
+        <div class="contact-container">
+            <div class="glass-card contact-info">
+                <h3>Get In Touch</h3>
+                <p>Feel free to reach out to me for any inquiries or collaboration opportunities.</p>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>mael.poignan@gmail.com</span>
+                </div>
+                <div class="info-item">
+                    <i class="fa-brands fa-discord"></i>
+                    <span>+1 (123) 456-7890</span>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Paris, France</span>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="glass-card contact-form">
+                <h3>Send a Message</h3>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                        <div class="form-glow"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                        <div class="form-glow"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" placeholder="Subject" required>
+                        <div class="form-glow"></div>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" placeholder="Your Message" required></textarea>
+                        <div class="form-glow"></div>
+                    </div>
+                    <button type="submit" class="btn primary-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="glass-footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Portfolio. All rights reserved.</p>
+            <a href="#home" class="back-to-top">
+                <i class="fas fa-arrow-up"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
